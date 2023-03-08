@@ -1,5 +1,5 @@
 # Desarrollo de Sistemas Informáticos 
 
-## Práctica 05. Objects, classes, interfaces 
+## Práctica 06. Generics & SOLID 
 ## Author: Kevin Salcedo
-## Date: 02/03/2023
+## Date: 08/03/2023
