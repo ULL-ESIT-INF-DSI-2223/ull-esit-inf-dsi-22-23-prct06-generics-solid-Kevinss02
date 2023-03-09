@@ -1,6 +1,8 @@
 {
   "entryPoints": [
-    "./src/index.ts"
+    "./src/EjercicioPE/NumberSearchableCollection.ts",
+    "./src/EjercicioPE/StringSearchableCollection.ts",
+    "./src/EjercicioPE/SearchableCollection.ts"
   ],
   "out": "./docs"
 }
