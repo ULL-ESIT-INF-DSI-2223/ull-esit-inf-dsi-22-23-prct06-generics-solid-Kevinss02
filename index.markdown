@@ -21,11 +21,11 @@ He deicido modelar este ejercicio creando las siguientes clases:
 
 * *StreamableCategory*: Implementa los atributos name, duration, year, genre propios de cualquier categoría de stream. Se apoya de la interfaz genérica StreamableCategoryInterface. Además introduce los métodos valueOf() y equal() para permitir la comparación de objetos de un mismo tipo, y métodos abstractos print() y toString() para la salida a consola.
 
-![Imagen Interfaz StreamableCategoryInterface](/assets/imgs/ejercicio1/InterfazStreamableCategoryInterface)
+![Imagen Interfaz StreamableCategoryInterface](assets/imgs/ejercicio1/InterfazStreamableCategoryInterface)
 
 * *BasicStreamableCollection*: Constituye la clase abstracta genérica básica para las colecciones de películas, series y documentales. Se apoya de dos interfaces también genéricas: Streamable y CollectionInterface. Dividí la funcionalidad en estas dos interfaces porque resulta en una mejor representación del modelado cumpliendo el cuarto principio SOLID Interface segregation.
 
-![Imagen Interfaces BasicStreamableCollection](/assets/imgs/ejercicio1/InterfacesBasicStreamableCollection.png)
+![Imagen Interfaces BasicStreamableCollection](assets/imgs/ejercicio1/InterfacesBasicStreamableCollection.png)
 
 CollectionInterface recoge los métodos básicos propios de cualquier colleción mientras que Streamable implementa métodos específicos para este ejercicio permitiendo la búsqueda y el ordenamiento de colecciones de stream.
 
@@ -33,7 +33,7 @@ CollectionInterface recoge los métodos básicos propios de cualquier colleción
 
 Se realizaron un total de 14 pruebas, superadas con éxito, para comprobar el correcto funcionamiento de la implementación de este ejercicio.
 
-![Imagen Pruebas Ej1](/assets/imgs/ejercicio1/PruebasEj1.png)
+![Imagen Pruebas Ej1](assets/imgs/ejercicio1/PruebasEj1.png)
 
 
 # Ejercicio 2 - Implementación de una lista y sus operaciones
