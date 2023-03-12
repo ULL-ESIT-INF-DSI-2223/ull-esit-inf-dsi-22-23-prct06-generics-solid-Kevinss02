@@ -9,8 +9,7 @@ interface CollectionInterface<T> {
   shift(): T | undefined;
   slice(start?: number, end?: number): T[];
   splice(start: number, deleteCount: number, ...items: T[]): T[];
-  at(indx: number): T;
-  [indx: number]: T;
+  at(indx: number): T |undefined;
   search(searchTerm: T): number[];
   getItems(): T[];
 }
@@ -98,17 +97,11 @@ export abstract class BasicStreamableCollection<T> implements Streamable<T> {
    * @param indx The index of the item.
    * @returns The item at the specified idnex.
    */
-  public at(indx: number): T {
+  public at(indx: number): T | undefined {
+    if (indx < 0 || indx >= this._items.length) { return undefined; }
     return this._items[indx];
   }
 
-  /**
-   * Gets or sets the item at the specified index of the collection.
-   * @param indx The index of the item.
-   * @returns The item at the specified index.
-   */
-  [indx: number]: T;
-  
   /**
    * Gets the items in the collection.
    * @returns An array of items in the collection.
