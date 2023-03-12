@@ -2,7 +2,15 @@
   "entryPoints": [
     "./src/EjercicioPE/NumberSearchableCollection.ts",
     "./src/EjercicioPE/StringSearchableCollection.ts",
-    "./src/EjercicioPE/SearchableCollection.ts"
+    "./src/EjercicioPE/SearchableCollection.ts",
+    "./src/Ejercicio1/BasicStreamableCollection.ts",
+    "./src/Ejercicio1/DocumentariesCollection.ts",
+    "./src/Ejercicio1/Documentary.ts",
+    "./src/Ejercicio1/Film.ts",
+    "./src/Ejercicio1/FilmCollection.ts",
+    "./src/Ejercicio1/Serie.ts",
+    "./src/Ejercicio1/SerieCollection.ts",
+    "./src/Ejercicio1/StreamableCategory.ts",
   ],
   "out": "./docs"
 }
